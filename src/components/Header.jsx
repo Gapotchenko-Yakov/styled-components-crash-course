@@ -1,9 +1,10 @@
 import React from "react";
+import { StyledHeader } from "./styles/Header.styled";
 
 export default function Header() {
   return (
-    <header>
+    <StyledHeader>
       <h1>Header</h1>
-    </header>
+    </StyledHeader>
   );
 }
